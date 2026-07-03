@@ -9,14 +9,6 @@
   --radius: 10px;
 }
 
-html[data-tema="claro"] {
-  --bg: #f5f3fa;
-  --bg-alt: #eae6f2;
-  --card: #ffffff;
-  --text: #211d2c;
-  --text-muted: #5c5470;
-}
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -421,4 +413,12 @@ textarea.input {
   .header-inner { flex-direction: column; gap: 12px; }
   .hero { padding: 70px 0; }
   .hero h1 { font-size: 1.9rem; }
+}
+
+html[data-tema="claro"] {
+  --bg: #f5f3fa;
+  --bg-alt: #eae6f2;
+  --card: #ffffff;
+  --text: #211d2c;
+  --text-muted: #5c5470;
 }
