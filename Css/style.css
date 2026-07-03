@@ -9,6 +9,14 @@
   --radius: 10px;
 }
 
+html[data-tema="claro"] {
+  --bg: #f5f3fa;
+  --bg-alt: #eae6f2;
+  --card: #ffffff;
+  --text: #211d2c;
+  --text-muted: #5c5470;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
